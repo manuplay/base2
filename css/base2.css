@@ -1,0 +1,69 @@
+
+.flex-container{
+	display: flex;
+	background: red;
+	justify-content: space-around;
+	justify-content: center;
+	flex-direction: row;
+	background-color: blue;
+	padding: 10px;
+	border: 2px solid black;
+	flex-wrap: wrap;
+}
+
+.flex-container div{
+	background-color: gainsboro;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	border: 3px solid black;
+}
+
+.menu{
+	width: 150px;
+	height: 30px;
+}
+
+.flex-container2{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: blue;
+	border: 2px solid black;
+}
+
+.flex-container2 div{
+	background-color: gainsboro;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 75px;
+	border: 3px solid black;
+}
+
+.texto1{
+	display: flex;
+	border: 3px solid;
+	background-color: yellow;
+	position: absolute;
+	left: 400px;
+	top: 500px;
+}
+
+.grid-container{
+	display: grid;
+	line-height: 75px;
+	grid-template-columns: 200px auto 90px;
+	grid-template-rows: 200px auto 200px;
+}
+
+.grid-container div{
+	background-color: crimson;
+	color: blue;
+	border: 2px solid black;
+	font-size: 30px;
+	text-align: center;
+}
